@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+  background-color: grey;
+  text-align: center;
+  width: 100%;
+  color: black;
+  margin-top: -16px;
+}
+
+#left {
+  background-color:blue;
+  float: left;
+  text-align: center;
+  width: 50%;
+  height: 400px;
+  line-height: 20;
+}
+
+#right {
+  background-color:red;
+  float: right;
+  text-align: center;
+  width: 25%;
+  height: 400px;
+  line-height: 20;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+}
