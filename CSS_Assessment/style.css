@@ -9,7 +9,7 @@ body {
   text-align: center;
   width: 100%;
   color: black;
-  margin-top: -16px;
+  
 }
 
 #left {
@@ -19,6 +19,7 @@ body {
   width: 50%;
   height: 400px;
   line-height: 20;
+  margin-top: 25px;
 }
 
 #right {
@@ -28,6 +29,7 @@ body {
   width: 25%;
   height: 400px;
   line-height: 20;
+  margin-top: 25px;
 }
 
 #footer {
