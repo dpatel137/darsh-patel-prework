@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Hangman Bros!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="main_logo">
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <section class="start">
+        <p id="status">Press any button to begin!</p>
+      </section>
+
+      <section class="words">
+        <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ </h3>
+      </section>
+
+      <section class="results">
+        <div class="wrong">
+          <strong>Wrong Guesses: </strong> <span id="wrong-guesses"></span>
+        </div>
+        <div class="guesses">
+          <strong>Guesses Remaining: </strong> <span id="guesses-left">10</span>
+        </div>
+        <div class="wins">
+          <strong>Wins: </strong> <span id="win-counter">0</span>
+        </div>
+        <div class="losses">
+          <strong>Losses: </strong> <span id="loss-counter">0</span>
+        </div>
+      </section>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
